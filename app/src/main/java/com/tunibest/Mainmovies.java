@@ -270,7 +270,7 @@ public class Mainmovies extends AppCompatActivity implements RecyclerViewInterfa
                     .url("https://movie-database-imdb-alternative.p.rapidapi.com/?s="+name.substring(0,i)+"&r=json&page=1")
                     .get()
                     .addHeader("x-rapidapi-host", "movie-database-imdb-alternative.p.rapidapi.com")
-                    .addHeader("x-rapidapi-key", "75cf39f115msh5e1388559e7e8fap1b360fjsn8f1509e8c0ea")
+                    .addHeader("x-rapidapi-key", "xxxxxxxxxxxxxxxxxxxxx")
                     .build();
 
                  client.newCall(request).enqueue(new Callback() {

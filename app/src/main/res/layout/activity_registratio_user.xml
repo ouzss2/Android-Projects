@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#23313f"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".Registratio_user"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logotn"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="391dp"
+        android:layout_height="450dp"
+        android:orientation="vertical"
+        android:background="@drawable/lgback">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="Registration"
+            android:textSize="22dp"/>
+
+        <EditText
+            android:id="@+id/Loginuser"
+            android:drawableLeft="@drawable/ic_baseline_supervised_user_circle_24"
+            android:layout_marginTop="10dp"
+            android:hint=" User"
+            android:textColor="#000"
+            android:background="@drawable/editback"
+            android:textSize="20dp"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+        <EditText
+            android:id="@+id/Email"
+            android:drawableLeft="@drawable/ic_baseline_alternate_email_24"
+            android:layout_marginTop="25dp"
+            android:hint=" Email"
+            android:textColor="#000"
+            android:background="@drawable/editback"
+            android:textSize="20dp"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+        <EditText
+            android:id="@+id/PassUser"
+            android:drawableLeft="@drawable/ic_baseline_lock_24"
+            android:layout_marginTop="25dp"
+            android:hint=" Password"
+            android:textColor="#000"
+            android:background="@drawable/editback"
+            android:textSize="20dp"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+        <EditText
+            android:id="@+id/PassUserValid"
+            android:drawableLeft="@drawable/ic_baseline_lock_24"
+            android:layout_marginTop="25dp"
+            android:hint=" Retype Password"
+            android:background="@drawable/editback"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+
+
+        <LinearLayout
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/toSave"
+                android:layout_width="300dp"
+                android:textAlignment="center"
+                android:text="Register"
+                android:textSize="15dp"
+                android:background="@drawable/buttonbg"
+                android:textColor="#fff"
+                android:layout_height="wrap_content"/>
+            <ProgressBar
+                android:id="@+id/barprog"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="-50dp"/>
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
